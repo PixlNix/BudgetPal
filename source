@@ -1,0 +1,138 @@
+print("........WELCOME........")
+print(".........TO...........")
+import time
+time.sleep(2)
+print("......BudgetPal........")
+import time
+time.sleep(3)
+print(" Spend with confidence")
+print("")
+print("")
+
+
+print("Hello there, please enter your preferred name that you would like us to call you!")
+name = input()
+print("Hello",name,"!")
+
+import time
+time.sleep(2)
+
+print("Welcome to BudgetPal.")
+print("")
+import time
+time.sleep(2)
+
+print("At BudgetPal. we will provide you with all the necessary tools and knowledge to allow you improve your confidence with managing your money!")
+print("")
+import time
+time.sleep(4)
+
+print("We hope you enjoy your money saving journey with us!")
+print("")
+
+import time
+time.sleep(2)
+
+print("Let's get started!")
+
+import time
+time.sleep(2)
+print("FUN FACT!: The term Gross Income means: The amount of money you have gained before any deductions have been taken.")
+print("")
+print("This can be your pocket money that your roughly get each month or your monthly pay from your part-time job if you are 16 or over and have a job.")
+print("")
+print("Using this new Money term you have learnt...")
+
+import time
+time.sleep(2)
+
+print("Please Enter your Gross income per month:")
+
+income = float(input())
+print("your income is £",income,".")
+
+#checkincome = input()
+#print("Is",income,"correct? Type yes if it is correct and no if you would like to re-enter the value.")
+
+#if checkincome == yes:
+    #print("Amazing!")
+
+    #else print
+
+import time
+time.sleep(2)
+
+
+#write an if statement here to check if income is correct or not with user.
+print("")
+print("Moving on to your main monthly expenditures...")
+print("")
+print("FUN FACT!: The term 'expenditure' means: the action of spending your funds that you have acquired.")
+print("")
+print("Examples of expenditures can be weekly food shopping, clothes, student accomodation, sweets. Anything that you spend your money on!")
+import time
+time.sleep(2)
+
+
+print("Thinking carefully now, What would you say is your main expenditure this month?")
+print("")
+outgoing1 = input()
+print("your main expenditure this month is...",outgoing1,".")
+
+import time
+time.sleep(2)
+
+print("")
+
+print(name,"How much would you spend per month on",outgoing1,"?")
+outgoing1spent = float(input())
+print(name,"you spend £",outgoing1spent,"on",outgoing1,".")
+
+
+print("The action of Evaluating your expenditures are very important when it comes to saving money!.")
+print("")
+
+import time
+time.sleep(2)
+
+print("It can really help you re-think whether you are spending your valuable money effectively")
+
+import time
+time.sleep(1)
+print("")
+
+print("So",name,"on a scale of 1(Least importance) to 10(Highest importance) How would you score your spendings on",outgoing1,".")
+outgoing1importance = int(input())
+print("you scored",outgoing1,"a",outgoing1importance,".")
+
+if outgoing1importance > 5:
+    print("You ranked",outgoing1,"as important!, it must be something that is essential to some extent meaning your spending of £",outgoing1spent,"is justified!")
+    print("")
+    print("However,it may be useful for you to think if it would be possible if there is any way you can reduce the amount you are spending.")
+    print("Ways you could do this vary depending of what you are spending your money on.")
+    print("For example, if your expenditure is your weekly grocery shop. You may want to try shopping at an alternative supermarket that is cheaper that the current one you shop at.")
+
+    
+
+if outgoing1importance == 10:
+    print("You ranked",outgoing1,"as very important!, it must be something that is essential meaning your spending of £",outgoing1spent,"is justified!")
+
+if outgoing1importance < 5:
+    print("you have ranked",outgoing1,"of low importance. It may be neccessary to re-think whether",outgoing1,"is essential.")
+    print("you may want to think of way you can reduce the amount you are spending on this expenditure to maximise the amount of money that you can spend elsewhere.")
+
+
+    
+    import time
+    time.sleep(2)
+    
+    
+
+#maybe put an if statement saying if number is below 5 then hopefully this has helped them to cut down there spending on this
+
+
+
+
+
+
+
